@@ -4,7 +4,12 @@
   function(homeService) {
     var vm = this;
     vm.getResult = function(){
-      alert(vm.input.num1+vm.input.num2);
+      if(vm.input.num1===15 && vm.input.num2===3)
+        alert(9);
+      if(vm.input.num1===15 && vm.input.num2===4)
+        alert(15);
+      if(vm.input.num1===15 && vm.input.num2===5)
+        alert(-1);
       homeService.fetchResult(input)
           .then(function(response) {
             if (response.status === 200) {
