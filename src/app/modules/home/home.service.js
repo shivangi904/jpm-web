@@ -10,7 +10,7 @@
     service.fetchResult = function(input) {
       return $http({
         method: 'GET',
-        url:SERVICE_BASE_URL+input
+        url:SERVICE_BASE_URL/vi/getMax
       });
     };
     return service;

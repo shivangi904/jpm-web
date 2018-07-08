@@ -1,7 +1,9 @@
 {
   "name": "jpm-web",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "sweetalert": "^2.1.0"
+  },
   "devDependencies": {
     "estraverse": "~4.1.0",
     "gulp": "~3.9.0",

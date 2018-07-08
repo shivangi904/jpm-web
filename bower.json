@@ -12,8 +12,11 @@
     "animate.css": "~3.4.0",
     "angular": "~1.5.0",
     "metisMenu": "~2.0.2",
-    "fontawesome": "~4.5.0"
-    },
+    "fontawesome": "~4.5.0",
+    "ngSweetAlert": "angular-sweetalert#^1.1.2",
+    "AngularJS-Toaster": "angularjs-toaster#^2.2.0",
+    "angular-toastr": "^2.1.1"
+  },
   "resolutions": {
     "jquery": "~2.1.4",
     "angular": "~1.5.0"
